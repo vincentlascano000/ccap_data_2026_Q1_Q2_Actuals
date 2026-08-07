@@ -35,7 +35,7 @@ def fmt_q(p):
 # =========================================================
 # UI — LEVERS
 # =========================================================
-st.title("CCAP — Method C (Recent‑Weighted + Seasonal Dampening)")
+st.title("CCAP — With 2026 Actuals)")
 
 decay = st.sidebar.slider(
     "Recency weighting",
