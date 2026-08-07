@@ -6,7 +6,7 @@ import altair as alt
 # =========================================================
 # CONFIG
 # =========================================================
-st.set_page_config(page_title="CCAP — Method C (Dampened)", layout="wide")
+st.set_page_config(page_title="CCAP with 2026 Actuals", layout="wide")
 
 RAW_URL = "https://raw.githubusercontent.com/vincentlascano000/ccap_data_2026_Q1_Q2_Actuals/main/CCAP_DATA_AS_OF_Q2_2026.csv"
 TARGET_END = pd.Period("2028Q4", freq="Q")
