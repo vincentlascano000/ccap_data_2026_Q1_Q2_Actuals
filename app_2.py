@@ -8,7 +8,7 @@ import altair as alt
 # =========================================================
 st.set_page_config(page_title="CCAP — Method C (Dampened)", layout="wide")
 
-RAW_URL = "https://raw.githubusercontent.com/vincentlascano000/ccap_data/main/CCAP_DATA.csv"
+RAW_URL = "https://raw.githubusercontent.com/vincentlascano000/ccap_data/main/CCAP_DATA_AS_OF_Q2_2026.csv"
 TARGET_END = pd.Period("2028Q4", freq="Q")
 
 BANK_COLORS = {
